@@ -7,10 +7,11 @@ toy_story = media.Movie("Toy Story",
                         "https:\\www.youtube.com\\watch?v=KYz2wyBy3kc")
 
 # print(toy_story.storyline)
-avatar = media.Movie("Avatar",
-                     "A marine on an alien planet",
-                     "http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Post",
-                     "http://www.youtube.com/watch?v=-9ceBgWV8io")
+heat = media.Movie("Heat",
+                     "A crime film involving Neil McCauley who was planning his last heist before retirement",
+                     "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Heatposter.jpg/220px-Heatposter.jpg",
+                     "https://www.youtube.com/watch?v=0xbBLJ1WGwQ")
+
 #  print(avatar.storyline)
 
 The_Foreigner = media.Movie("The Foreigner",
@@ -27,15 +28,15 @@ school_of_rock = media.Movie("School of Rock", "Using rock music to learn", "htt
 ratatouille = media.Movie("Ratatouille", "A rat is a chef in Paris", "http://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
                           "https://www.youtube.com/watch?v=c3sBBRxDAqk")
 
-midnight_in_paris = media.Movie("Midnight in Paris", "Going back in time to meet authors",
-                                "http://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
-                                "https://www.youtube.com/watch?v=atLg2wQQxvU")
+eagle_eye = media.Movie("Eagle Eye", "Jerry and Rachel's lives were disrupted by a stranger they never met. As their lives became imperiled, they had to figure out why before it is too late.",
+                                "https://images-na.ssl-images-amazon.com/images/I/51wWFFfTIsL.jpg",
+                                "https://www.youtube.com/watch?v=olRdPXwiSjk")
 
-hunger_games = media.Movie("Hunger Games", "A really real reality show",
-                           "http://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
-                           "https://www.youtube.com/watch?v=PbA63a7H0bo")
+point_break = media.Movie("Point Break", "A thriller movie involving Utah who makes friends with a group of thieves who steal money to give to the poor",
+                           "https://images-na.ssl-images-amazon.com/images/M/MV5BNWVjZWFmYjItZGJlOC00YTllLWE4YjctMWY2ZTg5ZjE0MDIyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
+                           "https://www.youtube.com/watch?v=ncvFAm4kYCo")
 
-movies = [toy_story, avatar, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
+movies = [toy_story, heat, school_of_rock, ratatouille, eagle_eye, point_break]
 fresh_tomatoes.open_movies_page(movies)
 # print(media.Movie.valid_ratings)
 #  print(media.Movie.__doc__)
