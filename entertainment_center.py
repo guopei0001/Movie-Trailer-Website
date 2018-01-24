@@ -12,18 +12,17 @@ heat = media.Movie("Heat",
                      "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Heatposter.jpg/220px-Heatposter.jpg",
                      "https://www.youtube.com/watch?v=0xbBLJ1WGwQ")
 
-#  print(avatar.storyline)
-
-The_Foreigner = media.Movie("The Foreigner",
-                     "An action thriller featuring Jackie Chan",
-                     "https://en.wikipedia.org/wiki/The_Foreigner_(2017_film)",
-                     "https://www.youtube.com/watch?v=EypTSjHoFsg")
+#  print(heat.storyline)
 
 
-# print(The_Foreigner.storyline)
-# The_Foreigner.show_trailer()                     
+
+
+                  
 school_of_rock = media.Movie("School of Rock", "Using rock music to learn", "http://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
                              "https://www.youtube.com/watch?v=3PsUJFEBC74")
+
+# print(school_of_rock.storyline)
+# school_of_rock.show_trailer()   
 
 ratatouille = media.Movie("Ratatouille", "A rat is a chef in Paris", "http://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
                           "https://www.youtube.com/watch?v=c3sBBRxDAqk")
