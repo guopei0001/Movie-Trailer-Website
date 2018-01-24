@@ -13,12 +13,12 @@ The names of the movies as well as their URLs could be changed in entertainment_
 
 Example
 
-The following lines in entertainment_center.py could be modified if you would like to add a new movie to the website. The words within the first inverted commas states the movie name, the words in the second inverted commas is the description of the movie, the words in the third inverted commas is a wikipedia page about the movie, and the words in the fourth inverted commas is a link to the youtube trailer of the movie.
+The following lines in entertainment_center.py could be modified if you would like to add a new movie to the website. The words within the first inverted commas states the movie name, the words in the second inverted commas is the description of the movie, the words in the third inverted commas is a url link to an image of the movie, and the words in the fourth inverted commas is a link to the youtube trailer of the movie.
 
-The_Foreigner = media.Movie("The Foreigner",
-                     "An action thriller featuring Jackie Chan",
-                     "https://en.wikipedia.org/wiki/The_Foreigner_(2017_film)",
-                     "https://www.youtube.com/watch?v=EypTSjHoFsg")
+toy_story = media.Movie("Toy Story",
+                        "A story of a boy and his toys that come to life",
+                        "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
+                        "https:\\www.youtube.com\\watch?v=KYz2wyBy3kc")
 
 Issues
 
